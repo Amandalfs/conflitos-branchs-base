@@ -1,14 +1,6 @@
 const express = require('express')
 const app = express()
 
-app.get('/lista', async () => {
-    return [
-        'amanda',
-        'ygor',
-        'patrick'
-    ]
-})
-
 app.get('/listagem', async() => {
     return [
         'amanda',
