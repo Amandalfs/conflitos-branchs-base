@@ -13,7 +13,6 @@ app.get('/lista/:id', (req, res)=>{
     return lista.map((usuario) => usuario.id === req.params.id)
 })
 
-
 app.listen(3000, ()=>{ 
     console.log('servidor rodando na porta 3000')
 })
