@@ -8,6 +8,10 @@ app.get('/lista/:id', (req, res)=>{
         nome: 'amanda'
     },
     {
+        id: 2,
+        nome: 'patrick',
+
+    }, {
         id: 3,
         nome: 'ygor'
     }]
